@@ -1,5 +1,7 @@
 +==================================================+
++                                                  +
 + FamiTone File Converters - Basic Usage           +
++                                                  +
 +==================================================+
 
 (This doc is a work in progress)
