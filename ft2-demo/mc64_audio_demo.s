@@ -1,4 +1,4 @@
-	include "64cube.inc"
+	include "includes/64cube.inc"
 
 macro draw color,h,v
 	lda color
@@ -9,7 +9,7 @@ enum $0
 	colorTimer db 0
 	mainColor db #63
 	colorToggle db 0
-	include "64cube_ft2.inc"	; FamiTone2 uses 3 bytes of zeropage.
+	include "includes/64cube_ft2.inc"	; FamiTone2 uses 3 bytes of zeropage.
 	;include "64cube_ft5.inc"	; FamiTone5 uses 36 bytes of zeropage.
 ende
 
@@ -98,7 +98,7 @@ ColorUpdate:
 	;FT_PAL_SUPPORT					; include PAL support
 	FT_NTSC_SUPPORT					; include NTSC support
 
-	include "64cube_ft2.asm"	; FamiTone2 driver
-	;include "64cube_ft5.asm"	; FamiTone5 driver
-	include "ft2testsong.asm"	; our beautiful song
-	include "ft2testsfx.asm"	; our lovely sound effects
+	include "includes/64cube_ft2.asm"	; FamiTone2 driver
+	;include "includes/64cube_ft5.asm"	; FamiTone5 driver
+	include "ft2-demo/ft2testsong.asm"	; our beautiful song
+	include "ft2-demo/ft2testsfx.asm"	; our lovely sound effects
