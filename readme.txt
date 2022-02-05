@@ -6,8 +6,10 @@
 +==================================================+
 
 This is a demo of using the FamiTone audio library with the Minicube64 fantasy
-console emulator. I'll be updating this document with more details when my cat
-stops freaking out.
+console emulator.
+
+Note: this project and documentation is a work in progress. Not all files or
+examples are present yet. See "to do" at the bottom of this doc.
 
 OVERVIEW-----------------------------------------
 
@@ -92,8 +94,14 @@ unofficial updates by Doug Fraker (nesdoug.com).
 
 -------------------------------------------------
 -------------------------------------------------
-To do:
+TO DO:
 - add more info about the famitone utilities
-- add "bare-minimum" example scripts
+- simple "how to" to make properly formatted files with FamiTracker,
+  Musetracker, etc.
+- "Bare minimum" examples:
+-- ft2 sfx
+-- all ft5 demos
+- ft5 demo song and sfx files using ft5-specific features
+- dpcm examples for both ft2 and ft5
 - more credits and references
-- probably other stuff but my cat won't leave me alone
+- probably other stuff but my cat still won't leave me alone
